@@ -27,16 +27,22 @@ body {
   border-radius: 10px;
 }
 
-form input, form label, form button {
+form input, form label{
   display: block;
   width: 100%;
-  margin-bottom: 10px;
+  
 }
 
 form input {
   font-size: 24px;
   height: 50px;
   padding: 0 20px;
+  border-radius: 5px;
+  border: 2px solid rgb(158, 158, 158);
+}
+
+form input:hover {
+  border-color: var(--primary-color-darker);
 }
 
 form input:focus {
